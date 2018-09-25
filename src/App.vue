@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <header class="header">
+    <div class="logo-box">
+      <img class="logo" src="./assets/img/logo-white.png" alt="Logo">
+    </div>
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Outdoors</span>
+          <span class="heading-primary-sub">is where life happens</span>
+        </h1>
+        <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+      </div>
+  </header>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+  name: 'app'
+};
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
 </style>
