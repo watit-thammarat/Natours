@@ -13,6 +13,31 @@
         </div>
     </header>
     <!-- <grid-test /> -->
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Exciting tours for adventurous people
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">You're goting to fall in love with nature</h3>
+            <p class="paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum rem eligendi commodi numquam aliquam dolor qui perferendis quae mollitia sit, praesentium necessitatibus cupiditate optio eos quis et repellendus. Blanditiis, ipsa.
+            </p>
+            <h3 class="heading-tertiary u-margin-bottom-small">Live adventyures like you never have before</h3>
+            <p class="paragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure doloremque ad nulla rerum quam tempora labore voluptas est sed nesciunt. Doloremque quidem sint odio voluptates nisi blanditiis labore error quaerat.
+            </p>
+            <a href="#" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            Image Content
+          </div>
+        </div>
+      </section>
+    </main>
   </div>
 </template>
 
