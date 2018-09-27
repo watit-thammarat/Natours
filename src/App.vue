@@ -12,7 +12,6 @@
           <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
         </div>
     </header>
-    <!-- <grid-test /> -->
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
@@ -184,6 +183,55 @@
         </div>
         <div class="u-center-text u-margin-top-huge">
           <a href="#" class="btn btn--green">Discover all tours</a>
+        </div>
+      </section>
+      <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="./assets/img/video.mp4" type="video/mp4">
+            <source src="./assets/img/video.webm" type="video/webm">
+            Your browser is no supported!
+          </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            We make people genuinely happy
+          </h2>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img class="story__img" src="./assets/img/nat-8.jpg" alt="Person on tour">
+              <figcaption class="story__caption">
+                Mary Smith
+              </figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti id, reiciendis sapiente quam animi similique, quod commodi expedita, reprehenderit aliquid dolorum eveniet molestiae ipsam. Quia, distinctio? Ut enim eum ad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img class="story__img" src="./assets/img/nat-9.jpg" alt="Person on tour">
+              <figcaption class="story__caption">
+                Jack Wilson
+              </figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completely different now</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti id, reiciendis sapiente quam animi similique, quod commodi expedita, reprehenderit aliquid dolorum eveniet molestiae ipsam. Quia, distinctio? Ut enim eum ad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
         </div>
       </section>
     </main>
