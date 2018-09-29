@@ -2,7 +2,9 @@
   <div>
     <div class="navigation">
       <input type="checkbox" id="navi-toggle" class="navigation__checkbox">
-      <label for="navi-toggle" class="navigation__button">MENU</label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+      </label>
       <div class="navigation__background">&nbsp;</div>
       <nav class="navigation__nav">
         <ul class="navigation__list">
